@@ -4,20 +4,22 @@ body
   margin: 0 auto;
   padding: 0 auto;
   box-sizing: border-box;
+  padding-top: 23px;    
   background-color:#FCCA00;  
 }
 
 #container
 {
   width: 700px;
-  height: 1402px;
+  height: 1800px;
   margin-left:auto;
   margin-right:auto;
   background-color:#fff;
   padding: 1px;  
-  border-radius: 5px;
+  border-radius: 8px;
 }
-#header{
+#header
+{
   width:699px;
   height:400px;
   background:url("img/IMG.jpg")  no-repeat;
@@ -43,7 +45,7 @@ body
   overflow: hidden;
   margin-top: 12px;
   background-color: #E5E7E6;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 #navbar a 
 {
@@ -60,22 +62,29 @@ body
 {
   background-color: #505050;
   color: white;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 #navbar a.active 
-{
+{ 
   color: #FCCA00;
-  border-radius: 5px;
-} 
+  border-radius: 8px;
+}
+#video
+{
+  width: 700px;
+  height: 405px;
+  margin-top: 18px;
+  border-radius: 8px;  
+}
 #content
 {
   width:490px;
   height:300px;
   margin-top:15px;
   float:left;
-	background-color:#E5E7E6;
+  background-color:#E5E7E6;
   padding:10px;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 #content h1
 {
@@ -97,7 +106,7 @@ body
   margin-top:15px;
   float:right;
   background-color:#E5E7E6;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 #workday h4
 {
@@ -115,7 +124,7 @@ body
   width:700px;
   height:45px;
   padding-top: 33px;
-  border-radius: 5px;
+  border-radius: 8px;
   float:right;  
 }
 #sidebar a 
@@ -223,13 +232,13 @@ body
 .content 
 {
   padding: 16px;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 .sticky 
 {
   position: fixed;
   width: 100%;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 .sticky + .content 
 {
@@ -258,13 +267,7 @@ body
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
-.footer h5
-{
-  text-align: center;
-  cursor: context-menu;
-}
-    
-    
+        
     #rad_block_play {
 	display: inline-block;
 	margin-right: 10px;
@@ -379,4 +382,9 @@ body
 	border: none;
 }
 
+.footer h5
+{
+  text-align: center;
+  cursor: context-menu;
+}
 
