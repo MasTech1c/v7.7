@@ -4,14 +4,14 @@ body
   margin: 0 auto;
   padding: 0 auto;
   box-sizing: border-box;
-  padding-top: 23px;    
+  padding-top: 19px;    
   background-color:#FCCA00;  
 }
 
 #container
 {
   width: 700px;
-  height: 1800px;
+  height: 1798px;
   margin-left:auto;
   margin-right:auto;
   background-color:#fff;
@@ -123,7 +123,7 @@ body
 {
   width:700px;
   height:45px;
-  padding-top: 33px;
+  padding-top: 35px;
   border-radius: 8px;
   float:right;  
 }
