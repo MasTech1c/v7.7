@@ -97,8 +97,8 @@ body
   font-size:16px;
   padding-left:10px;
   text-align: center;
-  margin: 0 auto;
-  padding: 0 auto; 
+  line-height: normal;
+  word-spacing: normal;
   cursor: context-menu;
 }
 #workday
@@ -112,15 +112,15 @@ body
 }
 #workday h4
 {
-  text-align: center;  
+  text-align: center;
   cursor: context-menu;
 }
 #workday p
 {
   text-align: center;
-  margin: 0 auto;
-  padding: 0 auto;  
   font-size:18px;
+  line-height: normal;
+  word-spacing: normal;
   cursor: context-menu;
 }
 #sidebar
@@ -137,6 +137,8 @@ body
   margin-left:9.6px;
   text-decoration:none;
   text-align: center;
+  line-height: normal;
+  word-spacing: normal;
 }
 .btn 
 {
@@ -391,3 +393,4 @@ body
   text-align: center;
   cursor: context-menu;
 }
+
