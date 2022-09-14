@@ -11,7 +11,7 @@ body
 #container
 {
   width: 700px;
-  height: 1790px;
+  height: 1770px;
   margin-left:auto;
   margin-right:auto;
   background-color:#fff;
@@ -23,7 +23,7 @@ body
   width:699px;
   height:400px;
   background:url("img/IMG.jpg")  no-repeat;
-  background-size:860px 400px;
+  background-size:850px 400px;
   box-sizing: border-box;  
 }
 #header h1
